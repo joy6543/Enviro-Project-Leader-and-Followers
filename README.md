@@ -55,11 +55,19 @@ Assuming that docker is already installed. Run the following command on Command 
 
 In place of ```$PWD``` use the local address where you downloaded the code. 
 
-(For eg: ```docker run -p80:80 -p8765:8765 -v /c/Users/mukhe/desktop/uw/eep_520/520-assignments:/source -it klavins/enviro:v1.61 bash```)
+(For eg: ```docker run -p80:80 -p8765:8765 -v /c/Users/mukhe/desktop/uw/enviro-project-leader-and-followers:/source -it klavins/enviro:v1.61 bash```)
 
 Open ```http://localhost``` on the browser, to see the program running.
 
 And then type in the Command prompt/ Terminal:
+
+```ls``` : To check the files in the folder
+
+```cd Project``` : Enter into the folder, here Project, containing the ```config.json``` and required files
+
+```ls``` : To ensure if all the required files are present
+
+```esm start``` : To start the Enviro environment (check the browser for this message: ```Enviro Error: No connection. Is the server running? See here for help.```)
 
 ```make``` (then press ENTER)
 
@@ -68,6 +76,8 @@ And then type in the Command prompt/ Terminal:
 Check the ```http://localhost``` and the program execution can be viewed.
 
 You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro server.
+
+Run couple of times (type ```make``` (ENTER) and then ```enviro``` (ENTER)), if minor glitches are encountered.
 
 ## Acknowedgements to all sources of information or code used:
 
@@ -79,4 +89,4 @@ You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro serv
 
 4) Prof. Klavins coded examples (https://github.com/klavinslab/enviro/tree/master/examples).
 
-#### Thank You.
+#### Thank You and Enjoy the navigating Robots!
