@@ -17,6 +17,8 @@ STEP 4: The entire pack moves around the arena. The patterns are as follows:
 
 ---> After that, all the Follower robots follow the Leader in a straight line (in every angles)..and so on.
 
+INFO: Leader Robot: Lightorange box with a striker, Follower Robots: Blue, Green, Red, and Yellow colored boxes.
+
 ## Key Challenges:
 
 1) I got introduced to ENVIRO during this course. It was a challenge for me to understand the methods, classses and objects and their usage. 
@@ -49,25 +51,35 @@ Open with GitHub Desktop application.
 
 ## How to run and/or use the project:
 
-Assuming that docker is already installed. Run the following command on Command prompt/ Terminal: 
+1) Assuming that docker is already installed. Run the following command on Command prompt/ Terminal: 
 
 ```docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash```
 
 In place of ```$PWD``` use the local address where you downloaded the code. 
 
-(For eg: ```docker run -p80:80 -p8765:8765 -v /c/Users/mukhe/desktop/uw/eep_520/520-assignments:/source -it klavins/enviro:v1.61 bash```)
+(For eg: ```docker run -p80:80 -p8765:8765 -v /c/Users/mukhe/desktop/uw/enviro-project-leader-and-followers:/source -it klavins/enviro:v1.61 bash```)
 
-Open ```http://localhost``` on the browser, to see the program running.
+2) Open ```http://localhost``` on the browser, to see the program running.
 
-And then type in the Command prompt/ Terminal:
+3) And then type in the Command prompt/ Terminal:
 
-```make``` (then press ENTER)
+4) ```ls``` : To check the files in the folder
 
-```enviro``` (then press ENTER)
+5) ```cd Project``` : Enter into the folder, here Project, containing the ```config.json``` and required files
 
-Check the ```http://localhost``` and the program execution can be viewed.
+6) ```ls``` : To ensure if all the required files are present
 
-You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro server.
+7) ```esm start``` : To start the Enviro environment (check the browser for this message: ```Enviro Error: No connection. Is the server running? See here for help.```)
+
+8) ```make``` (then press ENTER)
+
+9) ```enviro``` (then press ENTER)
+
+10) Check the ```http://localhost``` and the program execution can be viewed.
+
+11) You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro server.
+
+12) Run couple of times (type ```make``` (ENTER) and then ```enviro``` (ENTER)), if minor glitches are encountered.
 
 ## Acknowedgements to all sources of information or code used:
 
@@ -79,4 +91,4 @@ You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro serv
 
 4) Prof. Klavins coded examples (https://github.com/klavinslab/enviro/tree/master/examples).
 
-#### Thank You.
+#### Thank You and Enjoy the navigating Robots!
