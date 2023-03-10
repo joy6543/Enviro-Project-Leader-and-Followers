@@ -17,6 +17,8 @@ STEP 4: The entire pack moves around the arena. The patterns are as follows:
 
 ---> After that, all the Follower robots follow the Leader in a straight line (in every angles)..and so on.
 
+INFO: Leader Robot: Lightorange box with a striker, Follower Robots: Blue, Green, Yellow, and Red colored boxes.
+
 ## Key Challenges:
 
 1) I got introduced to ENVIRO during this course. It was a challenge for me to understand the methods, classses and objects and their usage. 
