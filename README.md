@@ -17,7 +17,7 @@ STEP 4: The entire pack moves around the arena. The patterns are as follows:
 
 ---> After that, all the Follower robots follow the Leader in a straight line (in every angles)..and so on.
 
-INFO: Leader Robot: Lightorange box with a striker, Follower Robots: Blue, Green, Yellow, and Red colored boxes.
+INFO: Leader Robot: Lightorange box with a striker, Follower Robots: Blue, Green, Red, and Yellow colored boxes.
 
 ## Key Challenges:
 
