@@ -51,7 +51,7 @@ Open with GitHub Desktop application.
 
 ## How to run and/or use the project:
 
-Assuming that docker is already installed. Run the following command on Command prompt/ Terminal: 
+1) Assuming that docker is already installed. Run the following command on Command prompt/ Terminal: 
 
 ```docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash```
 
@@ -59,27 +59,27 @@ In place of ```$PWD``` use the local address where you downloaded the code.
 
 (For eg: ```docker run -p80:80 -p8765:8765 -v /c/Users/mukhe/desktop/uw/enviro-project-leader-and-followers:/source -it klavins/enviro:v1.61 bash```)
 
-Open ```http://localhost``` on the browser, to see the program running.
+2) Open ```http://localhost``` on the browser, to see the program running.
 
-And then type in the Command prompt/ Terminal:
+3) And then type in the Command prompt/ Terminal:
 
-```ls``` : To check the files in the folder
+4) ```ls``` : To check the files in the folder
 
-```cd Project``` : Enter into the folder, here Project, containing the ```config.json``` and required files
+5) ```cd Project``` : Enter into the folder, here Project, containing the ```config.json``` and required files
 
-```ls``` : To ensure if all the required files are present
+6) ```ls``` : To ensure if all the required files are present
 
-```esm start``` : To start the Enviro environment (check the browser for this message: ```Enviro Error: No connection. Is the server running? See here for help.```)
+7) ```esm start``` : To start the Enviro environment (check the browser for this message: ```Enviro Error: No connection. Is the server running? See here for help.```)
 
-```make``` (then press ENTER)
+8) ```make``` (then press ENTER)
 
-```enviro``` (then press ENTER)
+9) ```enviro``` (then press ENTER)
 
-Check the ```http://localhost``` and the program execution can be viewed.
+10) Check the ```http://localhost``` and the program execution can be viewed.
 
-You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro server.
+11) You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro server.
 
-Run couple of times (type ```make``` (ENTER) and then ```enviro``` (ENTER)), if minor glitches are encountered.
+12) Run couple of times (type ```make``` (ENTER) and then ```enviro``` (ENTER)), if minor glitches are encountered.
 
 ## Acknowedgements to all sources of information or code used:
 
