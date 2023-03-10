@@ -37,7 +37,7 @@ iii) Finally, during multiple trials, the Leader robot was getting stuck in betw
 
 ## How to install and run the code:
 
-In my git repo, the project can be downloaded by navigating to the Green <>Code button and choosing for the dropdown list for these steps:
+In my git repo, the project can be downloaded by navigating to the Green <>Code button and choosing any step from the dropdown:
 
 Use the HTTPS command to clone: https://github.com/joy6543/Enviro-Project-Leader-and-Followers.git
 
@@ -49,7 +49,7 @@ Open with GitHub Desktop application.
 
 ## How to run and/or use the project:
 
-Assuming that docker is already installed. Run the following command on command prompt/ terminal: 
+Assuming that docker is already installed. Run the following command on Command prompt/ Terminal: 
 
 ```docker run -p80:80 -p8765:8765 -v $PWD:/source -it klavins/enviro:v1.61 bash```
 
@@ -59,7 +59,7 @@ In place of ```$PWD``` use the local address where you downloaded the code.
 
 Open ```http://localhost``` on the browser, to see the program running.
 
-And then type in the command prompt/ terminal:
+And then type in the Command prompt/ Terminal:
 
 ```make``` (then press ENTER)
 
@@ -67,7 +67,7 @@ And then type in the command prompt/ terminal:
 
 Check the ```http://localhost``` and the program execution can be viewed.
 
-You can press ```Ctrl-C``` to stop the Enviro server.
+You can press ```Ctrl-C``` (in Command prompt/ Terminal) to stop the Enviro server.
 
 ## Acknowedgements to all sources of information or code used:
 
