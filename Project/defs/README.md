@@ -1,1 +1,1 @@
-Put agent definitions in this folder. 
+The .json files for the Leader and Follower robots
