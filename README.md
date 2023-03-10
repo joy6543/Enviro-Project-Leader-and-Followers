@@ -37,7 +37,7 @@ iii) Finally, during multiple trials, the Leader robot was getting stuck in betw
 
 ## How to install and run the code:
 
-You are currently in my git repo, and the project can be downloaded using any of these steps:
+In my git repo, the project can be downloaded by navigating to the Green <>Code button and choosing for the dropdown list for these steps:
 
 Use the HTTPS command to clone: https://github.com/joy6543/Enviro-Project-Leader-and-Followers.git
 
